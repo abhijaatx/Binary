@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav_bar{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    background-color:#1A1A1A;
+    padding-right: 30px;
+    height: 10vh;
+}
+.nav_bar h2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+.options div{
+     margin: 10px;
+}
+.options div a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.dada{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 2px solid red;
+    height: 90vh;
+    width: 90vw;
+}
+.papa{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+}
+.chacha{
+    height: 10vh;
+}
+#imgi{
+    background-image: url(Images/lawyer.jpeg);
+    height: 30vh;
+    width: 37.5vw;
+}
