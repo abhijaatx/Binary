@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-image: url(Images/back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formi{
+    background-color: #1a1a1a;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    
+    height: 55vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+   
+     
+}
+#btn{
+     opacity: 1;
+     height: 4vh;
+     width: 8vw;
+     font-size: 1.2rem;
+     margin-top: 3vh;
+     color:black;
+     border-radius: 7px;
+
+}
+.formi table td input{
+    z-index: -1;
+    height: 5vh;
+    width: 32vw;
+    /* margin: 2vh 1vw; */
+    margin-bottom: 1.5vh;
+    border-radius: 8px;
+    background-color: #515050;
+    
+}
+.formi table td{
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    margin-left: 4vw;
+}
+.formi table{
+    margin-right: 5vw;
+}
+#foot p{
+    margin-top: 1vh;
+}
+#foot p a{
+    text-decoration: none;
+    color: cyan;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bill.js"></script>
+    <link rel="stylesheet" href="finalstyle.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <h2>LawConnect</h2>
+            <div class="options">
+                <div>
+
+                    <a href="">Chats</a>
+                </div>
+                <div>
+                    <a href="">Document Transfer</a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="dada">
+        <div class="chacha">
+            <h1>Book your lawyer</h1>
+        </div>
+        <div class="papa">
+             <div class="card1">
+                <div class="imgi">
+                  
+                </div>
+                <div class="texti">
+                    <div class="bigtexti">
+                        <div>
+                            Appointment Date
+                            <input id="date" type="date">
+                        </div>
+                        <div>
+                            <input type="radio" value="online" id="on" name="mode">Online &nbsp; &nbsp; &nbsp;<input type="radio" value="ofline" id="of" name="mode">Ofline
+                        </div>
+                        <div>
+                            Time 
+                            From <input id="from" type="time">
+                            To <input id="till" type="time">
+                        </div>
+                        <div >
+                            duration
+                            <div id="duration"></div>
+                           
+
+                        </div>
+                        <div>
+                            price
+                            <textarea name="" id="" rows="1"></textarea>
+                        </div>
+                         <!-- <div class="left">
+                              <ul>
+                                 <li>Lawyer : Sarah Jacob</li>
+                                 <li>Experience: 3yrs</li>
+                                 <li>Cases won: 25</li>
+                                 <li>Consultant type: online,offline,office visit</li>
+                              </ul>
+                         </div>
+                         <div class="right">
+                            <ul>
+                            <li>Rating: 8.9</li>
+                            <li>Category:Criminal law</li>
+                            <li>Endorsement: 10</li>
+                            <li>Fees: Rs500/hour</li>
+                            
+                           </ul>
+                         </div> -->
+                    </div>
+                    <div class="btn">
+                        <button onclick="confirm()">Confirm</button>
+                    </div>  
+                </div>
+              
+
+             </div>
+             <div class="card2">
+                <h2>Appointment Details</h2>
+                <div class="head">
+                    <div class="lefti">
+                         <ul>
+                            <li>Appointment date: <div id="datebill"></div></li>
+                            <li>Consultant type : <div id="modebill"> </div></li>
+                            <li>Platform fee: 50rs</li>
+                            
+                         </ul>
+                    </div>
+                    <div class="righti">
+                        <li>Time: <div id="billfrom" ></div>
+                            <div id="billtill"></div></li>
+                        <li>Price: 500rs</li>
+                        <li>Total: <div id="totalbill"></div></li>
+                        
+                    </div>
+                </div>
+
+
+             </div>
+        </div>
+
+        <div class="pay">
+            <a href="https://rzp.io/l/9fisPqr">PAY NOW</a>
+        </div>
+            
+    </div>
+    <script>
+        function confirm(){
+            let a=document.getElementById("date").value;
+            let b=document.getElementById("from").value;
+            let c=document.getElementById("till").value;
+            document.getElementById("datebill").innerText=a;
+            let d=document.getElementsByName("mode").value;
+            document.getElementById("modebill").innerText=d;
+            let e= c-b;
+            document.getElementById("billtill")=c;
+            document.getElementById("billfrom")=b;
+            document.getElementById("duration")=e;
+
+
+        }
+
+
+    </script>
+
+</body>
+</html>

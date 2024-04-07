@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bill.js"></script>
+    <link rel="stylesheet" href="secondfinalpage.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <h2>LawConnect</h2>
+            <div class="options">
+                <div>
+
+                    <a href="">Chats</a>
+                </div>
+                <div>
+                    <a href="">Document Transfer</a>
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <div class="dada">
+        <div class="chacha">
+            <h1>Book your lawyer</h1>
+        </div>
+        <div class="papa">
+             <div class="card1">
+                <div class="imgi">
+                  
+                </div>
+                <div class="texti">
+                    <div class="bigtexti">
+                         <div class="left">
+                              <ul>
+                                 <li>Lawyer : Sarah Jacob</li>
+                                 <li>Experience: 3yrs</li>
+                                 <li>Cases won: 25</li>
+                                 <li>Consultant type: online,offline,office visit</li>
+                              </ul>
+                         </div>
+                         <div class="right">
+                            <ul>
+                            <li>Rating: 8.9</li>
+                            <li>Category:Criminal law</li>
+                            <li>Endorsement: 10</li>
+                            <li>Fees: Rs500/hour</li>
+                            
+                           </ul>
+                         </div>
+                    </div>
+                </div>
+
+             </div>
+             <div class="card2">
+                <div>
+                    Appointment Date
+                    <input id="date" type="date">
+                </div>
+                <div>
+                    <input type="radio" value="online" id="on" name="mode">Online &nbsp; &nbsp; &nbsp;<input type="radio" value="ofline" id="of" name="mode">Ofline
+                </div>
+                <div>
+                    Time 
+                    From <input type="time">
+                    To <input type="time">
+                </div>
+                <div>
+                    price
+                    <textarea name="" id="" rows="1"></textarea>
+                </div>
+
+             </div>
+        </div>
+
+        <div class="pay">
+            <a id="btn" onclick="exe()"  href="final.html">CONFIRM</a>
+        </div>
+        <p id="para"></p>
+            
+    </div>
+
+</body>
+<script>
+     var ele=document.getElementById("date").value;
+     var para=document.getElementById("para")
+     function exe(){
+          para.innerHTML=ele;
+     }
+
+
+
+</script>
+</html>

@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #1A1A1A ;
+}
+.nav_bar{
+    color: #EDB099;
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    background-color:#1A1A1A;
+    padding-right: 30px;
+    height: 10vh;
+}
+.nav_bar h2 a{
+    text-decoration: none;
+    
+    
+}
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+.options div{
+     margin: 10px;
+}
+.options div a{
+    font-weight: bold;
+    color: #EDB099;
+    text-decoration: none;
+}
+ .dada{
+    background-image: url(Images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    height: 80vh;
+    width: 90vw;
+    border: 2px solid black;
+    border-radius: 13px;
+
+}
+
+
+.chacha{
+    margin-left: 3vw;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.papa{
+   
+    margin-left: 2vw;
+    height: 55vh;
+    width: 86vw;
+    justify-content: space-around;
+
+    border-radius: 13px;
+}
+
+.card1{
+    display: flex;
+
+    height:27vh;
+    width: 86vw;
+    border-radius: 13px;
+    background-color: #1A1A1A;
+    
+    
+
+
+}
+.imgi{
+    background-image: url(Images/lawyer.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    border-radius: 13px;
+    width:18.5vw;
+    height:27vh;
+    border: 2px solid black;
+
+
+}
+.card2{
+    display: flex;
+
+    height:27vh;
+    width: 86vw;
+    margin-top: 1vh;
+    border-radius: 13px;
+    background-color: #1A1A1A;
+   
+}
+.pay{
+    display: flex;
+     flex-direction: row-reverse;
+     margin-top: 2vh;
+     margin-right: 2vw;
+}
+.pay a{
+     
+     text-decoration: none;
+     background-color:rgba(165, 42, 42, 0.967);
+     color: white;
+     padding: 8px 25px;
+     border-radius: 13px;
+
+
+}
+.bigtexti{
+    display: flex;
+    /* justify-content: center; */
+    width: 61.5vw;
+    
+}
+.bigtexti li{
+    font-size: 1.4rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 6px;
+}
+.left{
+     margin-left: 10vw;
+     margin-right: 10vw;
+}
+.head{
+    display: flex;
+    margin-left: 10vw;
+    
+}
+.head li{
+    font-size: 1.4rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 6px;
+
+}
+.card2{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+}
+.card2 h2{
+    color:white;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+}
+.righti{
+    margin-left: 6vw;
+}
+
+
+
